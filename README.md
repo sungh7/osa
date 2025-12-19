@@ -10,6 +10,7 @@ This repository contains the source code, trained models, and analysis scripts f
     *   `draw_framework_diagram.py`: Visualization generator for the framework methodology.
 *   `models/`: Pre-trained model artifacts.
     *   `hsat_triage_model.pkl`: The final trained Random Forest classifier (Stage 2).
+    *   `stage1_screening_model.pkl`: Logistic Regression model for STOP-Bang screening probability.
     *   `neck_imputer_model.pkl`: Helper model for Stage 1 neck circumference estimation.
 *   `results/`: Generated figures and metrics.
     *   `18_population_risk_heatmap.png`: Population risk stratification.
